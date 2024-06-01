@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.cont{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #3e18b3, #455478);
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text{
+    margin-left: 5%;
+}
+
+.text h1{
+    font-size: 3rem;
+    color: yellow;
+    letter-spacing: 0.1rem;
+}
+
+.text h3{
+    font-size: 2.75rem;
+}
+
+.ip{
+    margin-left: 5%;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: 5px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(1rem);
+}
+
+.ip input{
+    width: 100%;
+    color: black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border: none;
+}
+
+.ip button{
+    color: black;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem 3rem;
+    background-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.op{
+    margin-left: 5%;
+    font-size: 1.5rem;
+}
